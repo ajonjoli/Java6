@@ -1,6 +1,6 @@
 /*
 Fundamentos de Java
-Tercera EdiciÛn
+Tercera Edici√≥n
 Herbert Schildt
 Actualizado para J2SE 5
 www.mcgraw-hill-educacion.com
@@ -21,13 +21,13 @@ javac.exe
 compilador de Java.
 
 java.exe
-IntÈrprete Est·ndar de Java, Lanzador de Aplicaciones.
+Int√©rprete Est√°ndar de Java, Lanzador de Aplicaciones.
 */
 
 //Primer Programa de Ejemplo
 
 /*
-…ste es un programa simple de Java.
+√âste es un programa simple de Java.
 Llame a este archivo Ejemplo.java
 */
 
@@ -40,7 +40,7 @@ class Ejemplo {
 }
 
 /*
-Usted seguir· estos 3 pasos:
+Usted seguir√° estos 3 pasos:
 1. Ingresar el programa
 escribir xxxx.java
 2. Compilar el programa
@@ -50,41 +50,41 @@ java xxxx
 */
 
 /// ESPECIFICADORES DE ACCESO
-public // es posible acceder a dicho miembro mediante un cÛdigo qe estÈ fuera de la clase en la qe se encuentre declarado
-private // evita qe un miembro sea utilizado por un cÛdigo definido fuera de su clase
-//main( )  debe declararse como public porqe debe ser llamado por el cÛdigo fuera de su clase cuando el programa se inicie.
+public // es posible acceder a dicho miembro mediante un c√≥digo qe est√© fuera de la clase en la qe se encuentre declarado
+private // evita qe un miembro sea utilizado por un c√≥digo definido fuera de su clase
+//main( )  debe declararse como public porqe debe ser llamado por el c√≥digo fuera de su clase cuando el programa se inicie.
 
-static //permite qe main( ) sea llamado por el intÈrprete de Java antes de qe se cree un objeto de la clase
-	//esto resulta necesario porqe main( ) es llamado por el intÈrprete de Java antes qe se haga cualqier objeto
+static //permite qe main( ) sea llamado por el int√©rprete de Java antes de qe se cree un objeto de la clase
+	//esto resulta necesario porqe main( ) es llamado por el int√©rprete de Java antes qe se haga cualqier objeto
 
 void //indica al compilador qe main( ) no regresa un valor
-	//los mÈtodos tambiÈn pueden regresar valores
+	//los m√©todos tambi√©n pueden regresar valores
 	
-// PAR¡METROS
-//si no reqiere ingresar par·metros de cualqier modo necesita incluir los parÈntesis vacÌos
-//en main( ) solo hay un par·metro
-String args[] //el cual declara un par·metro args de tipo String. Se trata de una amtriz de objetos del tipo String
+// PAR√ÅMETROS
+//si no reqiere ingresar par√°metros de cualqier modo necesita incluir los par√©ntesis vac√≠os
+//en main( ) solo hay un par√°metro
+String args[] //el cual declara un par√°metro args de tipo String. Se trata de una amtriz de objetos del tipo String
 	//las matrices son colecciones de objetos similares
-	//args recibe cualqier argumento de lÌnea de comandos qe estÈ presente al momento de ejecutar el programa
-	//Hola Mundo no usa args, sin embargo otros programas sÌ la utilizar·n
+	//args recibe cualqier argumento de l√≠nea de comandos qe est√© presente al momento de ejecutar el programa
+	//Hola Mundo no usa args, sin embargo otros programas s√≠ la utilizar√°n
 
-System.out.print("Escribe en lÌnea y deja el puntero cursor a continuaciÛn");
-System.out.println("Escibe en linea y baja el puntero cursor al inicio de la lÌnea de abajo");
+System.out.print("Escribe en l√≠nea y deja el puntero cursor a continuaci√≥n");
+System.out.println("Escibe en linea y baja el puntero cursor al inicio de la l√≠nea de abajo");
 
 int var1;
 //tipo nombre_var;
 
-System.out.println("var1 contiene " + var1);	//con el uso de + puede unir en una cadena todos los elementos qe desee dentro de una sola instrucciÛn println( ) o print( ).
+System.out.println("var1 contiene " + var1);	//con el uso de + puede unir en una cadena todos los elementos qe desee dentro de una sola instrucci√≥n println( ) o print( ).
 
 +	Suma
 -	Resta
-*	MultiplicaciÛn
-/	DivisiÛn
+*	Multiplicaci√≥n
+/	Divisi√≥n
 
-double x;	//precisiÛn doble
-float y;	//precisiÛn sencilla
+double x;	//precisi√≥n doble
+float y;	//precisi√≥n sencilla
 
-System.out.println( );	//imprime una lÌnea en blanco
+System.out.println( );	//imprime una l√≠nea en blanco
 
 // IF
 if (condicion) instruccion;
@@ -100,12 +100,12 @@ if(10 < 9) System.out.println("esto no se muestra");
 ==	igual qe
 !=	no igual qe
 
-for (inicializaciÛn; condicion; iteracion) instruccion;
-//incializaciÛn: asigna un valor incial a una variable de control de bucle
-//condiciÛn: expresiÛn boleana qe prueba la variable de control de bucle
+for (inicializaci√≥n; condicion; iteracion) instruccion;
+//incializaci√≥n: asigna un valor incial a una variable de control de bucle
+//condici√≥n: expresi√≥n boleana qe prueba la variable de control de bucle
 	//si el resultado es true el bucle for sigue repitiendose
 	//si es falsa, el bucle se termina
-//la expresiÛn iteraciÛn determina la manera en la qe la variable de control de bucle cambia cada vez qe el bucle se repite
+//la expresi√≥n iteraci√≥n determina la manera en la qe la variable de control de bucle cambia cada vez qe el bucle se repite
 
 //ID:  _sun_wj_2751_se6
 
@@ -365,7 +365,7 @@ MyDate my_birth = new MyDate(22,7,1964);	//new implies allocation and initializa
 											//using the parameters implies explicit attribute initialization	month, day,year have the values of their class
 											//it calls the constructor that enables you to:	month,day,year have the values assigned
 												//you can override(invalida) the default initialization
-												//you can perform computation (hace los c·lculos)
+												//you can perform computation (hace los c√°lculos)
 												//you can pass arguments into the construction process so the object controls the object it created
 											//return object reference	my_birth has a value
 int x=7;
@@ -462,13 +462,13 @@ if (condition) {
 }
 
 //repasar THIS
-//THIS se refiere a la variable oculta, del qe llama, del objeto, el par·metro
+//THIS se refiere a la variable oculta, del qe llama, del objeto, el par√°metro
 //sin THIS se refiere a si es el mismo nombre, la variable de la clase, de la qe fue llamada, la qe resalta por default
 
-//los mÈtodos de 1 clase pueden referirse de modo global al objeto de esa clase al qe se aplican por medio de la referencia THIS
+//los m√©todos de 1 clase pueden referirse de modo global al objeto de esa clase al qe se aplican por medio de la referencia THIS
 //es posible declarar una variable dentro de un bloqe con el mismo nombre qe una variable miembro, pero no con el nombre de otra variable local qe ya existiera
 //la variable declarada dentro del bloqe oculta a la variable miembro en ese bloqe.
-//para acceder a la variable miembro oculta ser· preciso utilizar el operador THIS, en la forma this.variable
+//para acceder a la variable miembro oculta ser√° preciso utilizar el operador THIS, en la forma this.variable
 
 //Declaring Variables
 //Primite Type & Reference Type
@@ -480,12 +480,12 @@ public class ScopeExample {
     
     public void firstMethod() {
         int i=4, j=5;
-        this.i = i + j;	//øcu·l valor es this.i? 4 Û 1
+        this.i = i + j;	//¬øcu√°l valor es this.i? 4 √≥ 1
         secondMethod(7);
     }
     public void secondMethod(int i) {
         int j=8;
-        this.i = i + j;	//øcu·l valor es this.i? 7 Û 1
+        this.i = i + j;	//¬øcu√°l valor es this.i? 7 √≥ 1
     }
 }
 public class TestScoping {
@@ -868,7 +868,7 @@ default 	Yes			Yes							// if it doesn't have any access modifier in its declar
 private		Yes										// accessible only to methods inside the class
 // protected access is provided to subclasses that reside in a different package from the class that owns  the protected feature
 
-// Overriding Methods	MÈtodos Primordiales	Invalidando MÈtodos***
+// Overriding Methods	M√©todos Primordiales	Invalidando M√©todos***
 // a child class inherits all methods from its parent class, if you want to override a method:
 // the name, return type, and argument list  and its order match exactly those in the method of the parent class, the new method override the existing one
 // also the overriding method can't be less accessible than the method it overrides
@@ -934,7 +934,7 @@ Employee e = new Manager();	// legal	referring to an object with a variable that
 // Employee is the datatype, Manager is for calling the constructor and properties
 // Reason to do this:
 // an object has only 1 form that is given when constructed. However, a variable is polymorphic because it can refer to the objects of different forms
-// qiz· para aprovechar las propiedades desde el parent class qe se van perdiendo en los child classes, y por cualqier peqeÒez solamente se regresa al child class
+// qiz√° para aprovechar las propiedades desde el parent class qe se van perdiendo en los child classes, y por cualqier peqe√±ez solamente se regresa al child class
 // you can access only the parts of the object that are part of Employee, the Manager specific parts are hidden
 
 // illegal attempt to assign Manager attribute
@@ -1012,7 +1012,7 @@ public void doSomething(Employee e)
 // 3. The object type is checked at runtime, if the compiler permits the cast
 	// if you dont use instanceof and the cast can't happen, then at runtime occurs runtime errors or exception errors
 
-// Overloading Methods	Sobrecargando MÈtodos
+// Overloading Methods	Sobrecargando M√©todos
 // to use a method name for more than 1 method only if there's a distinction point: such as number and type of arguments
 public void println(int i);
 public void println(float f);
